@@ -1,0 +1,104 @@
+/* Centers the content vertically & horixontaly,
+sets the font family & background color */
+body {
+    font-family: sans-serif;
+    background-color: #f0ecf0;
+    min-height: 65vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*box-sizing is applied to all elements*/
+* {
+    box-sizing: border-box;
+}
+
+/* Styles the wrapper element by setting background color,
+border radius, & adding padding*/
+#wrapper {
+    background-color: rgb(233, 215, 240);
+    border-radius: 17px;
+    padding:20px;
+}
+
+/*Adjusts the font size of the heading & 
+center aligns the text*/
+#wrapper h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Adds margins to the advice class inside the wrapper*/
+#wrapper .advice{
+    margin: 20px;
+}
+
+/* Flexbox is used for the layout of the advice-box element*/
+#advice-box {
+    display: flex;
+}
+
+/* Styles the advice text by setting tge font size,
+font family, & text alignment*/
+#advice-text{
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/* Adjusts the font size of the quotation marks icons*/
+#advice-box i {
+    font-size: 20px;
+    
+}
+
+/* Styles the 1st child icon/1st quotation mark*/
+#advice-box i:first-child{
+    margin: 2px 3px 0 0;
+}
+
+/* Styles the 1st child icon/1st quotation mark*/
+#advice-box i:last-child{
+    margin: 0 0 2px 3px;
+
+    /* Aligning items at the bottom using flexbox*/
+    display: flex;
+    align-items: flex-end;
+}
+
+/*Adjusting the styling values of buttons, such as
+border, layout, padding, & content positioning */
+.buttons {
+    border-top: 2px solid white;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    
+}
+
+/* Sets the background color, border radius,
+margin, & cursor of the sound button*/
+.buttons #sound{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+/* Styles the new-advice button by first,
+removing default button styles, then adding additional styles like color,
+cursor, & margin*/
+.buttons #new-advice{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #c49dc4;
+    border-radius: 25px;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
