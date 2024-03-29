@@ -21,7 +21,7 @@ RUN INSTRUCTIONS:
 3) USING THE WEB APP: once the web app is running, a default advice will be displayed within the text box and you'll b eable to generate a new advice and listen to the displayed advice using the "New Advice" and Listen buttons. respectively.
 -----------------------------------------------------------------------------------------------------------
 ADDITIONAL NOTES:
-*Open the files through VS code and further develop the web app if you feel like it.
+* Open the files through VS code and further develop the web app if you feel like it.
 * Since an external API is used, make sure you have an internet connection while using the web app
 * Make sure that SpeechSynthesis API for the TTS is supported within your web browser.
 
